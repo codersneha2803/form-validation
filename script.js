@@ -55,7 +55,7 @@ function validateEmail() {
   var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
   if (!emailPattern.test(email)) {
-    emailError.innerHTML = '* Please enter a valid email address';
+    emailError.innerHTML = '* Please enter a valid email ';
     return false;
   }
 
